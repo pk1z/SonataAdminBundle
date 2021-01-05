@@ -494,6 +494,16 @@ class FormMapperTest extends TestCase
         $this->assertSame([], $this->admin->getFormTabs());
     }
 
+    public function testTabRemoving(): void
+    {
+        $this->formMapper->tab('mytab')->with('foobar');
+
+        $this->formMapper->removeTab('mytab');
+
+        $this->assertSame([], $this->admin->getShowGroups());
+        $this->assertSame([], $this->admin->getShowTabs());
+    }
+
     public function testKeys(): void
     {
         $this->contractor
