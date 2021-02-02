@@ -1,5 +1,5 @@
 {
-    "name": "sonata-project/admin-bundle",
+    "name": "Pk1z/admin-bundle",
     "type": "symfony-bundle",
     "description": "The missing Symfony Admin Generator",
     "keywords": [
@@ -102,7 +102,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sonata\\AdminBundle\\": "src/"
+            "Pk1z\\AdminBundle\\": "src/"
         }
     },
     "autoload-dev": {
