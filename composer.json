@@ -1,5 +1,5 @@
 {
-    "name": "Pk1z/admin-bundle",
+    "name": "pk1z/admin-bundle",
     "type": "symfony-bundle",
     "description": "The missing Symfony Admin Generator",
     "keywords": [
